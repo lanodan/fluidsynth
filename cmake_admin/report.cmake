@@ -25,6 +25,12 @@ else ( DSOUND_SUPPORT )
     set ( AUDIO_MIDI_REPORT "${AUDIO_MIDI_REPORT}  DSound:                no\n" )
 endif ( DSOUND_SUPPORT )
 
+if ( SNDIO_SUPPORT )
+  message ( "Sndio:                 yes" )
+else ( SNDIO_SUPPORT )
+  message ( "Sndio:                 no" )
+endif ( SNDIO_SUPPORT )
+
 if ( JACK_SUPPORT )
     set ( AUDIO_MIDI_REPORT "${AUDIO_MIDI_REPORT}  JACK:                  yes\n" )
 else ( JACK_SUPPORT )

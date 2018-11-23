@@ -205,6 +205,9 @@
 /* Define to enable SDL2 audio driver */
 #cmakedefine SDL2_SUPPORT @SDL2_SUPPORT@
 
+/* Define to enable Sndio driver */
+#cmakedefine SNDIO_SUPPORT @SNDIO_SUPPORT@
+
 /* Define to 1 if you have the ANSI C header files. */
 #cmakedefine STDC_HEADERS @STDC_HEADERS@
 
